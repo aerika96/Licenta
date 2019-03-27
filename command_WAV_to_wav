@@ -1,0 +1,2 @@
+find . -name '*.WAV' | parallel -P20 sox {} '{.}.wav'
+
